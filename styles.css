@@ -127,6 +127,15 @@ button {
   object-fit: cover;
 }
 
+@media (max-width: 520px) {
+  .fireworks {
+    height: auto;
+    max-height: 260px;
+    object-fit: contain;
+    background: rgba(255, 255, 255, 0.35);
+  }
+}
+
 @keyframes pop {
   from { transform: scale(.96); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
